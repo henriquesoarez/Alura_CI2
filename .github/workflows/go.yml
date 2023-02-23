@@ -33,7 +33,7 @@ jobs:
       
   
   build:
-    needs: teste
+    needs: test
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
